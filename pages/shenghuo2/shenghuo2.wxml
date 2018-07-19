@@ -1,0 +1,26 @@
+ <view class="selection">
+      
+   <view class='pic'>
+        <image class="add_bg" src="../../image/2.jpg"
+        style="width:300rpx;height:300rpx;"></image>
+  </view>
+
+   <navigator url="../components/input2/input2">
+      <view class="food-item1">
+         <button bindtap="washtype">新食堂</button>
+      </view>
+   </navigator>
+
+   <navigator url="../components/input/input">
+      <view class="food-item">
+         <button bindtap="CONtype">老食堂</button>
+      </view>
+   </navigator>
+
+   <navigator url="../components/input/input">
+      <view class="food-item">
+         <button bindtap="wetwipestype">教工食堂</button>
+      </view>
+   </navigator>
+
+</view>

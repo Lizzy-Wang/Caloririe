@@ -1,0 +1,86 @@
+<view class="container">
+
+  <view class="selection">
+    <swiper indicator-dots="true" autoplay="ture" interval="3000" duration="1000">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <view class="selection">
+    <view class="header">
+      <text>常见食物卡路里</text>
+    </view>
+
+    <view class="content">
+      <view class="content-item" bindtap="first">
+        <image src="../../image/7.jpg" />
+        <view class="content-item-text">
+          <text>肉类</text>
+        </view>
+      </view>
+      <view class="content-item" bindtap="second">
+        <image src="../../image/9.jpg" />
+
+        <view class="content-item-text">
+          <text>主食类</text>
+        </view>
+      </view>
+      <view class="content-item" bindtap="third">
+        <image src="../../image/8.jpg" />
+
+        <view class="content-item-text">
+          <text>果蔬类</text>
+        </view>
+      </view>
+      <view class="content-item" bindtap="forth">
+        <image src="../../image/10.jpg" />
+
+        <view class="content-item-text">
+          <text>其他类</text>
+        </view>
+      </view>
+
+    </view>
+
+
+  </view>
+
+  <view class="selection">
+    <view class="header">
+      <text>健康小知识</text>
+    </view>
+
+    <view class="List-item" bindtap="fifth">
+      <view class="List-item-images">
+        <image src="../../image/11.jpg" class="List-item-image-img" />
+        <image src="../../image/info.png" class="avatar" />
+      </view>
+      <view class="List-item-text" >
+        <view class="List-item-text-title">
+          <text>健身的你，每天摄入了多少卡路里？</text>
+        </view>
+        <view>
+          <text class="List-item-text-content">当健身的你考虑到一天需要摄入多少卡路里的时候，你应该以你自身的目标和现在的热量状态来决定。</text>
+          </view>
+      </view>
+    </view>
+    <view class="List-item" bindtap="sixth">
+      <view class="List-item-images">
+        <image src="../../image/12.jpg" class="List-item-image-img" />
+        <image src="../../image/info.png" class="avatar" />
+      </view>
+      <view class="List-item-text">
+        <view class="List-item-text-title">
+          <text>运动会加快代谢，加速燃脂！</text>
+        </view>
+        <view>
+          <text class="List-item-text-content">要减肥就不要懒，单纯节食的减肥会让身体变得很难看，体型很畸形，不是健康的美。唯有运动能让你拥有有人凹凸有致的体型！ </text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

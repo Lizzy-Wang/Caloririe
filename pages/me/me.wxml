@@ -1,0 +1,51 @@
+
+<view class="container">
+
+<view class="option2" >
+<radio-group class="radio-group" bindchange="radioChange">性别：
+ <label class="radio" wx:for-items="{{items}}">
+ <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+ </label>
+</radio-group>
+</view>
+
+<picker  class="option1"  mode="selector" range='{{array1}}' value='{{index1}}' bindchange='bindPickerChange1' >
+
+                <text class="picker">身高：{{array1[index1]}}cm
+                <image src="../../image/right.png" class="right"></image>
+                </text>
+            </picker> 
+
+<picker  class="option2"  mode="selector" range='{{array2}}' value='{{index2}}' bindchange='bindPickerChange2' >
+
+                <text class="picker">体重：{{array2[index2]}}Kg
+                <image src="../../image/right.png" class="right"></image>
+                </text>
+            </picker> 
+
+<picker  class="option1"  mode="selector" range='{{array3}}' value='{{index3}}' bindchange='bindPickerChange3' >
+
+                <text class="picker">年龄：{{array3[index3]}}岁
+                <image src="../../image/right.png" class="right"></image>
+                </text>
+            </picker> 
+
+<picker  class="option2"  mode="selector" range='{{array4}}' value='{{index4}}' bindchange='bindPickerChange4' >
+
+                <text class="picker">运动频率：{{array4[index4]}}
+                <image src="../../image/right.png" class="right"></image>
+                </text>
+            </picker> 
+  <view class='space'></view>
+  <view class='space'></view>
+  <view class='btn'>每日最佳摄入量:  
+  <text class='cal'>{{caloriedata}}</text>大卡
+  </view>
+
+
+ <view class='container1'>
+      <button   type="primary" size="default" style="background-color: #265a88;" formType="submit" disabled="{{disableHookBtn}}" bindtap="calculate">保存</button>
+  </view>
+
+
+</view>

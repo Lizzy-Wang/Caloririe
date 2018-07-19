@@ -1,0 +1,74 @@
+
+
+
+.btn{  
+  height: 100px;
+  width: 340px;
+  font-size: 48rpx;
+  color: cadetblue;
+  border-top: 1px solid #E6E7E7;
+  border-bottom: 1px solid #E6E7E7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.cal{  
+color: darkorange;
+font-size: 55rpx;
+
+}
+
+.picker{
+  padding-top: 40rpx;
+  padding-bottom: 20rpx;
+  left: -80rpx;
+}
+
+.space{
+  height: 40rpx;
+}
+
+.right {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  top: 50%;
+  right: 20rpx;
+  margin-top: -20rpx;
+}
+
+
+
+.option1 {
+  color: #3D3D3D;
+  padding: 20rpx 60rpx;
+  background: #fff;
+  font-size: 40rpx;
+  transition: 0.5s;
+  margin-bottom: 0rpx;
+  position: relative;
+}
+
+.option2 {
+  color: #3D3D3D;
+  padding: 20rpx 60rpx;
+  background: #E6E7E7;
+  font-size: 40rpx;
+  transition: 0.5s;
+  margin-bottom: 0rpx;
+  position: relative;
+}
+
+.container {
+  height: 1200rpx;
+  box-sizing: border-box;
+  padding: 30rpx;
+} 
+.container1 {
+  height: 600rpx;
+  box-sizing: border-box;
+  padding: 80rpx;
+} 

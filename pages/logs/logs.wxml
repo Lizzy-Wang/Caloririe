@@ -1,0 +1,21 @@
+<view class="section">
+    
+            <view class="product1">今日建议摄入 <view class="cal1" >{{caloriedataa}}</view>千卡</view>
+            <view class="product2">今日已摄入 <view class="cal2" >{{costt}}</view>千卡</view>
+         
+            <view class="product3">你今天还可以摄入</view>
+              <view class="product4"><view class="cal3" >{{left}}</view>千卡</view>
+</view>
+
+<view class="container">
+  <view class="selection">
+    <view class="edit">看看食堂有什么好吃哒</view>
+    <view class="col">
+      <view class='item add_box' bindtap="onNewItem">
+        <image class="add_bg" src="../../image/add.png" style="width:200rpx;height:200rpx;"></image>
+      </view>
+    </view>
+  </view>
+</view>
+
+   

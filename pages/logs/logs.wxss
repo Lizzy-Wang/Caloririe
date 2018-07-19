@@ -1,0 +1,91 @@
+ .container{
+  height:400rpx;
+  width:100%;
+   background-color:white;
+ }
+
+ .cal1{  
+color: darkorange;
+font-size:40rpx;
+}
+
+.cal2{  
+color: yellowgreen;
+font-size: 40rpx;
+}
+
+.cal3{  
+color: red;
+font-size: 60rpx;
+}
+
+ .edit{
+  height: 100rpx;
+  width: 100%;
+  color:PowderBlue;
+  padding-top: 30rpx;
+  display: flex;
+  flex: row;
+  justify-content: center;
+  position: relative;
+  font-size:25px;
+  font-weight:bold;
+}
+.col{
+    width: 35%;
+    height: 200rpx;
+    padding-top: 10%;
+    padding-left: 33%;
+    margin: 20rpx 3.666666%;
+    position: relative;
+}
+.section{
+   height:500rpx;
+   width:100%;
+   background-color:PowderBlue;
+}
+ .product1{
+height: 80rpx;
+  width: 100%;
+  color:white;
+  padding-top: 30rpx;
+  display: flex;
+  flex: row;
+  justify-content: center;
+  position: relative;
+  font-size:20px;
+}
+ .product2{
+height: 80rpx;
+  width: 100%;
+  color:white;
+  padding-top: 30rpx;
+  display: flex;
+  flex: row;
+  justify-content: center;
+  position: relative;
+  font-size:20px;
+}
+ .product3{
+  height: 80rpx;
+  width: 100%;
+  color:white;
+  padding-top: 30rpx;
+  display: flex;
+  flex: row;
+  justify-content: center;
+  position: relative;
+  font-size:25px;
+}
+ .product4{
+  height: 100rpx;
+  width: 100%;
+  color:white;
+  padding-top: 30rpx;
+  display: flex;
+  flex: row;
+  justify-content: center;
+  position: relative;
+  font-size:25px;
+  font-weight:bold;
+}
